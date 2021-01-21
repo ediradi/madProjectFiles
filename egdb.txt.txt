@@ -1,0 +1,25 @@
+router.get('/restapi',function( req,res,next){
+  let sql;
+  let j1;
+  let j2;
+  let j3;
+  //sql = "select * from race;"
+  dbConnection.query("select * from race;")
+      .then(result =>{ 
+        j1 = {"Race":result};
+        //console.log(j1);
+        //sql = "select * from eggvariants;"
+        dbConnection.query("SELECT * FROM eggVariants;")
+            .then(result =>{ 
+              j2 = {"EggVariants":result};
+              //console.log(j2);
+              sql = "SELECT day, quantity, comment, eggVariants.color FROM eggArchive, eggVariants ";
+              sql += "WHERE eggArchive.color_id = eggVariants.id ORDER BY eggArchive.day DESC;";
+              dbConnection.query(sql)
+                  .then(result =>{ 
+                    j3 = {"Harvest":result};
+                    res.json({...j1,...j2,...j3});
+                  })
+              })
+      });
+});

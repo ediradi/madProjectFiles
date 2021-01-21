@@ -1,0 +1,149 @@
+{
+    "help": "https://www.data.gv.at/katalog/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "metadata_linkage": "",
+        "maintainer": "N\u00d6 Energie- und Umweltagentur (eNu)",
+        "relationships_as_object": [],
+        "private": false,
+        "maintainer_email": null,
+        "num_tags": 6,
+        "update_frequency": "continual",
+        "terms_url": "http://www.noe.gv.at/noe/Open-Government-Data/Nutzungsbedingungen.html",
+        "license_id": "cc-by-40",
+        "metadata_original_portal": "",
+        "id": "96d176fb-dfd4-49de-91fc-b4997ab353ba",
+        "attribute_description": "Domain(country): nextbike brand (String)\nName(country): Name of the brand (String)\nhotline(country): Hotline of the brand (String)\nlat(country): Latitude (Float)\nIng(country): Longitude (Float)\nzoom(country): Default zoom value for GoogleMaps maps (450 px witdh) (Int)\nuid(city): ID of the city (Int)\nname(city): Name of the city (String)\nlat(city): Latitude (Float)\nIng(city): Longitude (Float)\nzoom(city): Default zoom value for GoogleMaps maps (450 px witdh) (Int)\nuid(place): ID of the location (Int)\nname(place): Name of the station (String)\nnumber(place): system wide station number (String)\nlat(place): Latitude (Float)\nIng(place): Longitude (Float)\nspot(place): is official station (Boolean)\nbikes(place): Number of available bikes (1,2,3,4,5+) (String)\nbike_numbers(place): up to 5 comma seperated 5-digit bike numbers (first number = recommended bike) (String)\nbike_racks(place): Number of total bike racks (Int)",
+        "categorization": "{sport-und-freizeit,verkehr-und-technik}",
+        "metadata_modified": "2021-01-11T04:09:17.059456",
+        "author": null,
+        "author_email": null,
+        "lineage_quality": "null",
+        "metadata_identifier": "96d176fb-dfd4-49de-91fc-b4997ab353ba",
+        "schema_language": "ger",
+        "state": "active",
+        "version": null,
+        "metadata_created": "2013-06-12T11:16:09.285500",
+        "creator_user_id": "1ef312ca-5bd3-42cd-a704-5cb22d67fbbc",
+        "type": "dataset",
+        "publisher_link": "http://www.noe.gv.at",
+        "resources": [
+            {
+                "mimetype": null,
+                "cache_url": null,
+                "hash": "",
+                "description": "",
+                "name": "NEXTBIKE N\u00d6 Fahrradverleihsystem",
+                "format": "XML",
+                "url": "http://nextbike.net/maps/nextbike-official.xml?domains=la,at",
+                "datastore_active": false,
+                "cache_last_updated": null,
+                "package_id": "96d176fb-dfd4-49de-91fc-b4997ab353ba",
+                "created": "2021-01-11T04:09:17.279110",
+                "state": "active",
+                "mimetype_inner": null,
+                "last_modified": null,
+                "position": 0,
+                "revision_id": "cf133226-e4cc-403a-a6a2-cadae9d3a1b2",
+                "url_type": null,
+                "id": "4ac54b38-fb9a-47ca-997b-090992776801",
+                "resource_type": null,
+                "size": null
+            }
+        ],
+        "num_resources": 1,
+        "tags": [
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "Bewegung",
+                "id": "23cc0869-a714-4d96-9b66-560cfe4f3570",
+                "name": "Bewegung"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "Mobilit\u00e4t",
+                "id": "2870924e-2ae6-480a-b6bb-d0312ac03349",
+                "name": "Mobilit\u00e4t"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "Radfahren",
+                "id": "36b2e11a-4b6c-4bb9-a3f0-38078657345d",
+                "name": "Radfahren"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "Radmiete",
+                "id": "38c0d798-49c3-4422-bf91-df2ec6c76124",
+                "name": "Radmiete"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "Radverleih",
+                "id": "bffbd9fe-13c3-47ad-a733-c6f86bc977fc",
+                "name": "Radverleih"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "\u00d6V",
+                "id": "85f71b20-7033-48e0-b37b-aa3ea60b5ffa",
+                "name": "\u00d6V"
+            }
+        ],
+        "license_citation": "nextbike GmbH",
+        "groups": [],
+        "begin_datetime": "2013-05-17T00:00:00.000000",
+        "relationships_as_subject": [],
+        "license_title": "Creative Commons Namensnennung 4.0 International",
+        "owner_org": "c2269a71-6293-4ee8-8da2-0fa1e6a86253",
+        "publisher": "Land Nieder\u00f6sterreich",
+        "name": "land-noe-nextbike-no-fahrradverleihsystem",
+        "isopen": true,
+        "schema_characterset": "UTF-8",
+        "notes": "Lage, Ort und Bezeichnung der nextbike Standorte mit Verf\u00fcgbarkeit freier Leihr\u00e4der in Nieder\u00f6sterreich.",
+        "title": "NEXTBIKE N\u00d6 Fahrradverleihsystem",
+        "url": null,
+        "extras": [
+            {
+                "key": "metadata_origin_portal",
+                "value": "http://data.noe.gv.at/katalog/96d176fb-dfd4-49de-91fc-b4997ab353ba.xml"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "128768db-bd2e-4771-a5ef-63cab1a4c687"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "0a57dee7-53fe-4d4b-866c-0750946d4c50"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "UPSIR XML Import Nieder\u00f6sterreich"
+            }
+        ],
+        "license_url": "https://creativecommons.org/licenses/by/4.0/deed.de",
+        "end_datetime": "null",
+        "schema_name": "metadaten-md 1.0.0",
+        "organization": {
+            "description": "",
+            "created": "2017-12-01T10:19:57.114001",
+            "title": "Land Nieder\u00f6sterreich",
+            "name": "land-niederoesterreich",
+            "is_organization": true,
+            "state": "active",
+            "image_url": "",
+            "revision_id": "1baf7e76-d712-45f0-9cf7-d74337a3db2b",
+            "type": "organization",
+            "id": "c2269a71-6293-4ee8-8da2-0fa1e6a86253",
+            "approval_status": "approved"
+        },
+        "revision_id": "27bcdc21-9225-48ae-b529-6e417827e837",
+        "metadata_linkage_name": ""
+    }
+}
